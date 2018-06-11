@@ -15,7 +15,7 @@ Anyway, I'm trying to read classic papers related to the topics covered by my th
 
 **TL/DR Version**: The intro to this paper is interesting for the perspective it gives on the field at a point in time, but the particular formalisms have evolved since then. Students of PL would be better served working through Software Foundations to learn and appreciate McCarthy's approach. A later paper, such as Wright and Felleisen's "A Syntactic Approach to Type Soundness" would probably be a more useful primary source.
 
-<!--break-->
+<!--summary-->
 
 # Introduction 
 
