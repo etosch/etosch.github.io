@@ -10,3 +10,4 @@ _posts/.*#.*
 cv.aux
 cv.log
 _includes/ocaml_module_oasis_example/_build
+cv.out

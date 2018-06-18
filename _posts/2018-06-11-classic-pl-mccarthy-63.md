@@ -15,6 +15,8 @@ Anyway, I'm trying to read classic papers related to the topics covered by my th
 
 **TL/DR Version**: The intro to this paper is interesting for the perspective it gives on the field at a point in time, but the particular formalisms have evolved since then. Students of PL would be better served working through Software Foundations to learn and appreciate McCarthy's approach. A later paper, such as Wright and Felleisen's "A Syntactic Approach to Type Soundness" would probably be a more useful primary source.
 
+<!--summary-->
+
 # Introduction 
 
 One of the things I like about this paper is the refreshingly high level view of the current state of comptuation, circa 1963. The second sentence of the introduction presents computation as "the science of how machines can be made to carry out intellectual processes," and states matter-of-factly that "We know that any intellectural process that can be carried out mechanically can be performed by a general purpose digital computer."  What's interesting to me about this statement is how it can feel like this perspective on what computation bubbles up cyclicly. I have the impression that the computing community routinely tries to branch out into other disciplines, overextends itself and its metaphors, and then recoils in shame for a bit to the fundamentals, before the next generation of researchers attempts to apply principles of comptuation to a broader swath of problems once again. 
