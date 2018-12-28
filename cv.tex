@@ -22,90 +22,148 @@
     \end{tcolorbox}
     \vspace{10pt}
 }
+\newcommand{\research}[6]{
+  \parbox{\textwidth}{
+    \textbf{#1}. #2 -- #3. #4. \newline
+    \textit{Supervisor}: #5. \textit{Topic}: #6.
+    \vspace{5pt}
+  }
+}
+\newcommand{\pub}[4]{
+  \parbox{\textwidth}{
+    #1. #2. \textit{#3}. #4.
+    \vspace{5pt}
+  }
+}
+\newcommand{\teaching}[6]{
+  \parbox{\textwidth}{
+    \textbf{#1}. #2 (#3). #4. #5. #6.
+    \vspace{5pt}
+  }
+}
+\newcommand{\umass}{University of Massachusetts Amherst}
+\newcommand{\me}{\textbf{E. Tosch}}
+
 \begin{document}
 
 \renewcommand{\arraystretch}{1.2}
 
 \begin{figure*}
-\begin{subfigure}{0.65\textwidth}
+\begin{subfigure}{0.75\textwidth}
 {\Large \noindent Emma Tosch}		\\
-%\includegraphics[scale=0.1]{plasma-globe}
 PhD Candidate\\
-University of Massachusetts Amherst\\
+\umass{}\\
 College of Information and Computer Sciences\\
-%% Programming Languages and Systems Lab (PLASMA)
-%% Advisor: Dr. Emery Berger
 Advisors: Drs. Eliot Moss \& David Jensen
 \end{subfigure}
-\begin{subfigure}{0.35\textwidth}
-\begin{tabular}{p{2in} l}
-{140 Governors Drive \newline
-Amherst, MA 01002} & \includegraphics[scale=0.5]{glyphicons_free/glyphicons/png/glyphicons-21-home}\\
-\url{etosch@cs.umass.edu} & \includegraphics[scale=0.5]{glyphicons_free/glyphicons/png/glyphicons-11-envelope}\\
-\url{http://github.com/etosch} & \includegraphics[scale=0.4]{GitHub-Mark/PNG/GitHub-Mark-32px}\vspace{2pt}\\
-\url{http://etosch.github.io} & \includegraphics[scale=0.5]{glyphicons_free/glyphicons/png/glyphicons-236-pen}
+\begin{subfigure}{0.25\textwidth}
+\begin{tabular}{r}
+140 Governors Drive \\
+Amherst, MA 01002\\
+\url{etosch@cs.umass.edu}\\
+\url{http://github.com/etosch} \\
+\url{http://etosch.github.io}\\
 \end{tabular}
 \end{subfigure}
 \rule{\linewidth}{0.3mm}\\
 \end{figure*}
 
-\renewcommand{\arraystretch}{1.5}
-\cvsec{Education}{Ph.D. {\bf Computer Science}. University of Massachusetts, Amherst. Amherst, MA. 2011 -- present.  \\
-        M.S. {\bf Computer Science}. University of Massachusetts Amherst. Amherst, MA. 2011 -- 2015.\\
+\cvsec{Education}{Ph.D. {\bf Computer Science}. \umass{}. Amherst, MA. 2011 -- present.  \\
+        M.S. {\bf Computer Science}. \umass{}. Amherst, MA. 2011 -- 2015.\\
         M.A. {\bf Computer Science}. Brandeis University. Waltham, MA. 2009 -- 2011. \\
 	B.A. {\bf English Literature}. Wellesley College. Wellesley, MA. 2006 -- 2008.
 }
 
 \cvsec{Research Experience}{
-  \begin{description}[leftmargin=1cm]
-  \item[Research Assistant.] May 2018 -- present. University of Massachusetts, Amherst. KDL Lab, Advisor: David Jensen. Developing tools and methods to assist with evaluation on the DARPA Explainable  AI (XAI) program.  
-  \item[Research Assistant.] May 2013 -- January 2017. University of Massachusetts, Amherst. PLASMA Lab, Advisor : Emery Berger. Developed a domain specific programming language and runtime system to design, debug, and deploy scientific surveys on the web, at scale.
-  \item[Research Intern.] June 2015 -- August 2015. Facebook, Inc. Menlo Park, CA. Core Data Science -- Economic Research Team, Statistics and Decision Science Team. Mentor: Eytan Bakshy. Static Analysis for the PlanOut DSL. 
-  \item[Research Assistant.] September 2011 -- January 2013. University of Massachusetts, Amherst. CI Lab, Advisor : Lee Spector. Researched new metrics for evaluating parameters of evolutionary search based on techniques from nonparametric statistics.
-  \item[Visiting Researcher.] June 2010 -- August 2010. Institute for Creative Technologies. Playa Vista, CA. Supervisor : Ron Artstein. Augmented and evaluated a natural language generation and question-answering system for virtual humans.
-\end{description}
+  \research{Research Assistant}{May 2018}{Present}{\umass{}, Knowledge Discovery Lab}{David Jensen}{Developing tools and methods to assist with evaluation on the DARPA Explainable  AI (XAI) program}
+  \research{Research Assistant}{May 2013}{January 2017}{\umass{}, PLASMA Lab}{Emery Berger}{Developing a domain specific programming language and runtime system to design, debug, and deploy scientific surveys on the web, at scale.}
+  \research{Research Intern}{June 2015}{August 2015}{Facebook, Inc., Core Data Science -- Economic Research Team, Statistics and Decision Science Team}{Eytan Bakshy}{Static Analysis for the PlanOut DSL}
+  \research{Research Assistant}{September 2011}{January 2013}{\umass{}, CI Lab}{Lee Spector}{New metrics for evaluating parameters of evolutionary search based on techniques from nonparametric statistics}
+  \research{Visiting Researcher}{June 2010}{August 2010}{Institute for Creative Technologies (Playa Vista, CA)}{Ron Artstein}{Augmenting and evaluating a natural language generation and question-answering system for virtual humans}
 }
 
 \cvsec{Publications}{
-\hangindent=1cm J. Foley, {\bf E. Tosch}, K. Clary, D. Jensen. ToyBox: Better Atari Environments for Testing Reinforcement Learning Agents. \emph{NeurIPS Systems for ML Workshop}. 2018.
-
-\hangindent=1cm S. Witty, J.K. Lee, {\bf E. Tosch}, A. Atrey, M. Littman, D. Jensen. Measuring and Characterizing Generalization in Deep Reinforcement Learning. \emph{NeurIPS Critiquing and Correcting Trends in Reinforcement Learning Workshop}. 2018.
-
-\hangindent=1cm K. Clary, {\bf E. Tosch}, J. Foley, D. Jensen. Let's Play Again: Variability of Deep Reinforcement Learning Agents in Atari Environments. \emph{NeurIPS Critiquing and Correcting Trends in Reinforcement Learning Workshop}. 2018.
-
-%\hangindent=1cm {\bf E. Tosch}, E. Bakshy, E. Berger, D. Jensen, E. Moss. PlanAlyzer: Assessing Threats to the Validity of Online Experimentation. \emph{In Submission.}
- 2018.
-
-\hangindent=1cm E. Bakshy, {\bf E. Tosch}. Formal Verification and Automated Causal Inference for Internet-Scale Experiments. CODE@MIT 2015.
-
-\hangindent=1cm {\bf E. Tosch}, E. Berger. SurveyMan: Programming and Debugging Surveys at Scale. \emph{Proceedings of the 2014 ACM International Conference on Object Oriented Programming Systems Languages and Applications}. ACM New York, NY, USA. 2014. {\bf Best Paper Award.}
-
-\hangindent=1cm {\bf E. Tosch}, E. Berger. Programming and Debugging Surveys. POPL OBT Workshop 2014.
-
-\hangindent=1cm {\bf E. Tosch}, L. Spector. Achieving COSMOS: A metric for determining when to give up and when to reach for the stars. \emph{Proceedings of the 14th Intl. Conf. on Genetic and Evolutionary Computation Conference Companion}. ACM New York, NY, USA. 2012.
-
-\hangindent=1cm K. Harrington, {\bf E. Tosch}, L. Spector, J. Pollack. Compositional Autoconstructive Dynamics \emph{Proc. of the 8th Intl. Conf. on Complex Systems}. 2011.
-
-\hangindent=1cm G. Chen, {\bf E. Tosch}, R. Artstein, A. Leuski, D. Traum. Evaluating Conversational Characters Created through Question Generation. FLAIRS Conference. 2011.
+  \pub{\me{}, J. Foley, K. Clary, D. Jensen}{ToyBox: Better Atari Environments for Testing Reinforcement Learning Agents}{Systems for Machine Learning Workshop at the 32nd Conference on Neural Information Processing Systems (NeurIPS)}{2018}
+  \pub{S. Witty, J. K. Lee, \me{}, A. Atrey, M. Littman, D. Jensen}{Measuring and Characterizing Generalization in Deep Reinforcement Learning}{Critiquing and Correcting Trends in Reinforcement Learning Workshop at the 32nd Conference on Neural Information Processing Systems (NeurIPS)}{2018}
+  \pub{K. Clary, \me{}, J. Foley, D. Jensen}{Let's Play Again: Variability of Deep Reinforcement Learning Agents in Atari Environments}{Critiquing and Correcting Trends in Reinforcement Learning Workshop at the 32nd Conference on Neural Information Processing Systems (NeurIPS)}{2018}
+  \pub{\me{}, E. Bakshy}{Formal Verification and Automated Causal Inference for Internet-Scale Experiments}{Conference on Digital Experimentation (CODE@MIT)}{2015}
+  \pub{\me{}, E. Berger}{SurveyMan: Programming and Debugging Surveys at Scale (\textbf{Best Paper Award})}{Proceedings of the 2014 ACM International Conference on Object Oriented Programming Systems Languages and Applications (OOPSLA)}{2014}
+  \pub{\me{}, L. Spector}{Achieving COSMOS: A metric for determining when to give up and when to reach for the stars}{Proceedings of the 14th International Conference on Genetic and Evolutionary Computation Conference Companion (GECCO)}{2012}
+  \pub{K. Harrington, \me{}, L. Spector, J. Pollack}{Compositional Autoconstructive Dynamics}{Proceedings of the 8th International Conference on Complex Systems}{2011}
+  \pub{G. Chen, \me{}, R. Artstein, A. Leuski, D. Traum}{Evaluating Conversational Characters Created through Question Generation}{Proceedings of the 24th International Florida Artificial Intelligence Research Society Conference (FLAIRS)}{2011}
 }
 
 \cvsec{Teaching Experience}{
-  \begin{description}[leftmargin=1cm]
-    \item[Instructor.] Reasoning Under Uncertainty (Undergraduate), University of Massachusetts, Amherst. Co-taught with Luis Pineda. Spring 2018.
-    \item[Teaching Assistant.] Advanced Logic (Upper Undergraduate/Graduate), University of Massachusetts, Amherst. Prof. Neil Immerman. Fall 2017.
-    \item[Teaching Assistant, Guest Lecturer]. Reasoning Under Uncertainty (Undergraduate), University of Massachusetts, Amherst. Prof. Andrew McGregor. Spring 2017.
-    \item[Mentor.] REUMass '16. Mentoring an undergraduate (Rosario Huamani Carpio, Pomona College '18). Summer 2016.
-    \item[Mentor.] Google Summer of Code. Official mentor for a GSoC student (Prakhar Srivastav) working on a SurveyMan graphical interface. Summer 2015.
-    \item[Mentor.] UMass Amherst. Mentoring an undergraduate (Molly McMahon) for a summer REU and an independent study with Emery Berger. Summer 2013, Spring 2014.
-    \item[Teaching Assistant.] Reasoning Under Uncertainty (Undergraduate), University of Massachusetts, Amherst. Prof. Andrew McGregor. Spring 2013.
-    \item[Teaching Assistant, Guest Lecturer.] Intro. to Theory of Computation (Undergraduate), Brandeis University. Antonella DiLillo. Spring 2011.
-    \item[Teaching Assistant.] Structure and Interpretation of Computer Programs (Undergraduate), Brandeis University. Prof. Harry Mairson. Fall 2010.
-    \item[Teaching Assistant.] Data Structures (Undergraduate), Brandeis University. Antonella DiLillo. Spring 2010.
-    \item[Volunteer.] Cahners Computer Place, Museum of Science, Boston. Oct. 2009 -- May 2010, Sep. 2010 -- May 2011
-  \end{description}
-}
+    \teaching{Instructor}
+    {Reasoning Under Uncertainty}
+    {Undergraduate}
+    {\umass{}}{Co-taught with Luis Pineda}
+    {Spring 2018}
+    
+    \teaching{Teaching Assistant}
+    {Advanced Logic}
+    {Upper Undergraduate/Graduate}
+    {\umass{}}
+    {Taught by Prof. Neil Immerman}
+    {Fall 2017}
+    
+    \teaching{Teaching Assistant, Guest Lecturer}
+    {Reasoning Under Uncertainty}
+    {Undergraduate}
+    {\umass{}}
+    {Taught by Prof. Andrew McGregor}
+    {Spring 2017}
 
-\renewcommand{\arraystretch}{1}
+    \teaching{Mentor}
+    {Project on detecting adversarial behavior amongst online survey-takers}
+    {Rosario Huamani Carpio, Pomona College, B.A.  2018}
+    {\umass{} REU Program}
+    {PLASMA Lab}
+    {Summer 2016}
+    
+    \teaching{Mentor}
+    {Project for developing a SurveyMan graphical interface in React}
+    {Prakhar Srivastav, Columbia University, M.S. 2016}
+    {Google Summer of Code}
+    {PLASMA Lab}
+    {Summer 2015}
+    
+    \teaching{Mentor}
+    {Early-stage research project on developing tools for writing sound online surveys}
+    {Molly McMahon, \umass{}, B.A. 2015}
+    {\umass{} REU Program, Independent study}
+    {PLASMA Lab}
+    {Summer 2013, Spring 2014}
+    
+    \teaching{Teaching Assistant}
+    {Reasoning Under Uncertainty}
+    {Undergraduate}
+    {\umass{}}
+    {Taught by Prof. Andrew McGregor}
+    {Spring 2013}
+    
+    \teaching{Teaching Assistant, Guest Lecturer}
+    {Introduction to Theory of Computation}
+    {Undergraduate}
+    {Brandeis University}
+    {Taught by Dr. Antonella DiLillo}
+    {Spring 2011}
+    
+    \teaching{Teaching Assistant}
+    {Structure and Interpretation of Computer Programs}
+    {Undergraduate}
+    {Brandeis University}
+    {Taught by Prof. Harry Mairson}
+    {Fall 2010}
+    
+    \teaching{Teaching Assistant}
+    {Data Structures}
+    {Undergraduate}
+    {Brandeis University}
+    {Taught by Dr. Antonella DiLillo}
+    {Spring 2010}
+  }
+
 
 \cvsec{Teaching Training}{28 September 2015.  Active Learning Training with Rachel Rybaczuk.\\
 Fall 2015.  CIRTL Course.  Diversity in College Classroom:  Teaching the STEM Undergraduate.
@@ -210,3 +268,4 @@ Fall 2015.  CIRTL Course.  Diversity in College Classroom:  Teaching the STEM Un
 }
 
 \end{document}
+x`
