@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Can you share reviews?
+comments: true
 author:
   display_name: Emma Tosch
   email: etosch@cs.umass.edu
