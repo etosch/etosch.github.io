@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Opinions Bordering on Advice: Statements for Academic Jobs
+title: Opinions Bordering on Advice -- Statements for Academic Jobs
 comments: true
 author:
   display_name: Emma Tosch
